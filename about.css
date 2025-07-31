@@ -1,0 +1,67 @@
+.about-section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  /* background-color: #fdfdfd; */
+  border-radius: 10px;
+   background-color: rgba(30, 41, 59, 0.85); /* deep bluish-gray with transparency */
+  color: #F8FAFC;  /* keep text light */
+}
+
+.about-section h2 {
+  color: #00BCD4;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+.navigation{
+background:  rgba(15, 23, 42, 0.9);
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  gap: 40px;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.nav-item a:hover {
+  color: #00bcd4;
+}
+.badge {
+    background-color: #334155;
+  color: #f1f5f9;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background 0.3s;
+  /* background-color: #eee;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 0.9rem; */
+}
+.badge:hover {
+  background-color: #334155;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0F172A, #1E1B4B);
+  color: #F8FAFC;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
